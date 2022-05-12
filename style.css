@@ -26,3 +26,43 @@ body {
   background-color: #403A3A;
   margin-right: 30px;
 }
+
+.teclado-linha {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.teclado-botao {
+  width: 70px;
+  height: 40px;
+  background-color: #000;
+  color: #FFFFFF;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px #666;
+}
+
+.btn-branco {
+  background-color: #FFFFFF;
+  color: #000;
+  font-size: 15px;
+}
+
+.btn-corrigir {
+  background-color: #F09046;
+  color: #000;
+  font-size: 15px;
+}
+
+.btn-confirma {
+  background-color: #48C079;
+  color: #000;
+  font-size: 15px;
+  width: 90px;
+  height: 50px;
+}
