@@ -133,8 +133,27 @@ body {
   line-height: 25px;
 }
 
-.d-2-right {
+.d-1-right {
   width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.d-1-img {
+  border: 1px solid #000;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+}
+
+.d-1-img img {
+  width: 100%;
+}
+
+.d-1-img.small {
+  width: 80%;
+  font-size: 12px;
 }
 
 .divisao2 {
