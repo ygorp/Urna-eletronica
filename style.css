@@ -6,6 +6,12 @@
   font-style: normal;
 }
 
+@keyframes pisca {
+  0% {opacity: 0.2;}
+  50% {opacity: 1;}
+  100% {opacity: 0.2;}
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -114,6 +120,12 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 25px;
+}
+
+.pisca {
+  animation-name: pisca;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .d-1-4 {
